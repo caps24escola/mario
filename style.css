@@ -37,6 +37,15 @@
   animation: clouds-animation 20s infinite linear;
 }
 
+.creditos {
+  position: fixed;
+  bottom: 10px;
+  right: 10px; /* Alinha no canto inferior direito */
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #cb0505;
+}
+
 @keyframes pipe-animation {
   from {
     right: -80px;
